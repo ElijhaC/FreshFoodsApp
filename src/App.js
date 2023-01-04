@@ -39,11 +39,7 @@ function App() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li className="nav-item"><a className="nav-link" href="#services">recipes</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#team">Team</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#features">recipes</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +58,7 @@ function App() {
                 <div className="row">
                     <div className="col-lg-4 col-sm-6 mb-4">
                     <div className="portfolio-item">
-                            <a className="portfolio-link">
+                            <a className="portfolio-link"  href="#features">
                                 <img className="img-fluid" src="assets/img/breakfast.png" alt="..." />
                             </a>
                             <div className="portfolio-caption">
@@ -73,7 +69,7 @@ function App() {
                     </div>
                     <div className="col-lg-4 col-sm-6 mb-4">
                         <div className="portfolio-item">
-                            <a className="portfolio-link"  href="#portfolioModal2">
+                            <a className="portfolio-link"  href="#features">
                                 
                                 <img className="img-fluid" src="assets/img/lunch.png" alt="..." />
                             </a>
@@ -85,7 +81,7 @@ function App() {
                     </div>
                     <div className="col-lg-4 col-sm-6 mb-4">
                         <div className="portfolio-item">
-                            <a className="portfolio-link">
+                            <a className="portfolio-link"  href="#features">
                                 <img className="img-fluid" src="assets/img/dinner.png" alt="..." />
                             </a>
                             <div className="portfolio-caption">
@@ -127,7 +123,7 @@ function App() {
               </li>
               <li class="list-group-item border-0">
                 <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"></input>
-                <label class="form-check-label" for="thirdCheckbox" onClick={() => sethealthLabel("wheat")}>Wheat</label>
+                <label class="form-check-label" for="thirdCheckbox" onClick={() => sethealthLabel("gluten")}>Gluten</label>
               </li>
               <li class="list-group-item border-0">
                 <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"></input>

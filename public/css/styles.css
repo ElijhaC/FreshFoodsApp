@@ -1151,7 +1151,7 @@ progress {
   }
 .app__recipes {
   margin-top: 24px;
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 230px 230px;
   align-items: baseline;
 }
